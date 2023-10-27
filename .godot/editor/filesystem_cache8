@@ -1,0 +1,23 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1698439876
+icon.svg::CompressedTexture2D::6430383393135545758::1697145333::1698439876::1::::<><>::
+node_2d.tscn::PackedScene::5219356958850598947::1698353808::0::1::::<><>::uid://bbw0u14wcycg0::::res://art/playerGrey_up1.png<>uid://cuqaax6wxqaab::::res://art/playerGrey_walk1.png<>uid://b71jqdb35lcoi::::res://art/playerGrey_up2.png<>uid://dwrek7kav66qr::::res://art/playerGrey_walk2.png<>uid://c6liyb5vtq0pt::::res://art/enemyFlyingAlt_1.png<>uid://c26hqbygl8w02::::res://art/enemyFlyingAlt_2.png<>uid://dyj77qa3bqmiq::::res://art/enemySwimming_1.png<>uid://dmrc1sljjm0xj::::res://art/enemySwimming_2.png<>uid://bqbfb6we438kf::::res://art/enemyWalking_1.png<>uid://b0yn3ml4pk4j2::::res://art/enemyWalking_2.png
+player.gd::GDScript::-1::1697749922::0::1::::<>Area2D<>::
+README.md::TextFile::-1::1698439325::0::1::::<><>::
+::res://art/::1697145464
+enemyFlyingAlt_1.png::CompressedTexture2D::6971932370303387973::1697145464::1698439876::1::::<><>::
+enemyFlyingAlt_2.png::CompressedTexture2D::6732389537528064829::1697145464::1698439876::1::::<><>::
+enemySwimming_1.png::CompressedTexture2D::8864374628999875424::1697145464::1698439876::1::::<><>::
+enemySwimming_2.png::CompressedTexture2D::8036791424016366539::1697145464::1698439876::1::::<><>::
+enemyWalking_1.png::CompressedTexture2D::3511813592844602253::1697145464::1698439876::1::::<><>::
+enemyWalking_2.png::CompressedTexture2D::4191526812487795937::1697145464::1698439876::1::::<><>::
+gameover.wav::AudioStreamWAV::8294383391345234665::1697145464::1698439876::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::4635542678594408170::1697145464::1698439876::1::::<><>::
+playerGrey_up1.png::CompressedTexture2D::2503580890027337677::1697145464::1698439876::1::::<><>::
+playerGrey_up2.png::CompressedTexture2D::4686712687780639972::1697145464::1698439876::1::::<><>::
+playerGrey_walk1.png::CompressedTexture2D::6209649541168740337::1697145464::1698439876::1::::<><>::
+playerGrey_walk2.png::CompressedTexture2D::8738773455069713269::1697145464::1698439876::1::::<><>::
+::res://fonts/::1697145470
+FONTLOG.txt::TextFile::-1::1697145469::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1697145469::0::1::::<><>::
+Xolonium-Regular.ttf::FontFile::4359270011358609585::1697145469::1698439876::1::::<><>::
