@@ -1,10 +1,11 @@
-[gd_scene load_steps=14 format=3 uid="uid://cgmkbt21xmnip"]
+[gd_scene load_steps=16 format=3 uid="uid://cgmkbt21xmnip"]
 
 [ext_resource type="Texture2D" uid="uid://bbw0u14wcycg0" path="res://art/playerGrey_up1.png" id="1_q3dyp"]
 [ext_resource type="Texture2D" uid="uid://cuqaax6wxqaab" path="res://art/playerGrey_walk1.png" id="2_s1rpc"]
 [ext_resource type="Texture2D" uid="uid://b71jqdb35lcoi" path="res://art/playerGrey_up2.png" id="2_u4qbm"]
 [ext_resource type="Texture2D" uid="uid://dwrek7kav66qr" path="res://art/playerGrey_walk2.png" id="4_dh342"]
 [ext_resource type="Texture2D" uid="uid://c6liyb5vtq0pt" path="res://art/enemyFlyingAlt_1.png" id="5_3hw0n"]
+[ext_resource type="Script" path="res://Mob.gd" id="5_p85nn"]
 [ext_resource type="Texture2D" uid="uid://c26hqbygl8w02" path="res://art/enemyFlyingAlt_2.png" id="6_dwv6p"]
 [ext_resource type="Texture2D" uid="uid://dyj77qa3bqmiq" path="res://art/enemySwimming_1.png" id="7_co2n3"]
 [ext_resource type="Texture2D" uid="uid://dmrc1sljjm0xj" path="res://art/enemySwimming_2.png" id="8_t82r6"]
@@ -76,6 +77,10 @@ animations = [{
 "speed": 3.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_70flp"]
+radius = 37.0
+height = 104.0
+
 [node name="Player" type="Area2D"]
 metadata/_edit_group_ = true
 
@@ -91,14 +96,18 @@ animation = &"walk"
 [node name="Mob" type="RigidBody2D" parent="."]
 collision_layer = 0
 gravity_scale = 2.66454e-15
+script = ExtResource("5_p85nn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Mob"]
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_qdrg8")
-animation = &"fly"
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Mob"]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_70flp")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="Mob"]
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="Mob/VisibleOnScreenNotifier2D" to="Mob" method="_on_visible_on_screen_notifier_2d_screen_exited"]
