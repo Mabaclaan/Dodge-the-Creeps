@@ -1,10 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://dhnhglg3tbnd0"]
+[gd_scene load_steps=4 format=3 uid="uid://dhnhglg3tbnd0"]
 
+[ext_resource type="Script" path="res://main.gd" id="1_8egvv"]
 [ext_resource type="PackedScene" uid="uid://cgmkbt21xmnip" path="res://node_2d.tscn" id="1_uh234"]
 
 [sub_resource type="Curve2D" id="Curve2D_2fbxu"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 481, 6, 0, 0, 0, 0, 483, 721, 0, 0, 0, 0, 5, 721, 0, 0, 0, 0, 3, 1)
+}
+point_count = 5
 
 [node name="Main" type="Node"]
+script = ExtResource("1_8egvv")
 
 [node name="Player" parent="." instance=ExtResource("1_uh234")]
 
@@ -22,3 +28,7 @@ position = Vector2(240, 450)
 
 [node name="MobPath" type="Path2D" parent="."]
 curve = SubResource("Curve2D_2fbxu")
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
+position = Vector2(3, 1)
+rotation = 0.0104599

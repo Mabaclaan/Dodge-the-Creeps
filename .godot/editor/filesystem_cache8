@@ -1,7 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698440371
+::res://::1698695827
 icon.svg::CompressedTexture2D::6430383393135545758::1697145333::1698439876::1::::<><>::
-node_2d.tscn::PackedScene::5219356958850598947::1698440202::0::1::::<><>::uid://bbw0u14wcycg0::::res://art/playerGrey_up1.png<>uid://cuqaax6wxqaab::::res://art/playerGrey_walk1.png<>uid://b71jqdb35lcoi::::res://art/playerGrey_up2.png<>uid://dwrek7kav66qr::::res://art/playerGrey_walk2.png<>uid://c6liyb5vtq0pt::::res://art/enemyFlyingAlt_1.png<>uid://c26hqbygl8w02::::res://art/enemyFlyingAlt_2.png<>uid://dyj77qa3bqmiq::::res://art/enemySwimming_1.png<>uid://dmrc1sljjm0xj::::res://art/enemySwimming_2.png<>uid://bqbfb6we438kf::::res://art/enemyWalking_1.png<>uid://b0yn3ml4pk4j2::::res://art/enemyWalking_2.png
+main.tscn::PackedScene::7677857189384416363::1698442156::0::1::::<><>::uid://cgmkbt21xmnip::::res://node_2d.tscn
+Mob.gd::GDScript::-1::1698441234::0::1::::<>RigidBody2D<>::
+node_2d.tscn::PackedScene::5219356958850598947::1698441283::0::1::::<><>::uid://bbw0u14wcycg0::::res://art/playerGrey_up1.png<>uid://cuqaax6wxqaab::::res://art/playerGrey_walk1.png<>uid://b71jqdb35lcoi::::res://art/playerGrey_up2.png<>uid://dwrek7kav66qr::::res://art/playerGrey_walk2.png<>uid://c6liyb5vtq0pt::::res://art/enemyFlyingAlt_1.png<>res://Mob.gd<>uid://c26hqbygl8w02::::res://art/enemyFlyingAlt_2.png<>uid://dyj77qa3bqmiq::::res://art/enemySwimming_1.png<>uid://dmrc1sljjm0xj::::res://art/enemySwimming_2.png<>uid://bqbfb6we438kf::::res://art/enemyWalking_1.png<>uid://b0yn3ml4pk4j2::::res://art/enemyWalking_2.png
 player.gd::GDScript::-1::1697749922::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1698439325::0::1::::<><>::
 ::res://art/::1698439876
