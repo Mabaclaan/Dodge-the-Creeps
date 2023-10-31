@@ -1,3 +1,6 @@
+res://hud.tscn
+res://mob.tscn
+res://hud.gd
 res://main.tscn
 res://main.gd
 res://node_2d.tscn
