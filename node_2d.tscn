@@ -1,5 +1,6 @@
-[gd_scene load_steps=16 format=3 uid="uid://cgmkbt21xmnip"]
+[gd_scene load_steps=17 format=3 uid="uid://cgmkbt21xmnip"]
 
+[ext_resource type="Script" path="res://player.gd" id="1_8m1wr"]
 [ext_resource type="Texture2D" uid="uid://bbw0u14wcycg0" path="res://art/playerGrey_up1.png" id="1_q3dyp"]
 [ext_resource type="Texture2D" uid="uid://cuqaax6wxqaab" path="res://art/playerGrey_walk1.png" id="2_s1rpc"]
 [ext_resource type="Texture2D" uid="uid://b71jqdb35lcoi" path="res://art/playerGrey_up2.png" id="2_u4qbm"]
@@ -83,6 +84,7 @@ height = 104.0
 
 [node name="Player" type="Area2D"]
 position = Vector2(171, 211)
+script = ExtResource("1_8m1wr")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

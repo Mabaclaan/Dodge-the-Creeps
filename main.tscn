@@ -16,7 +16,7 @@ script = ExtResource("1_8egvv")
 mob_scene = ExtResource("2_8qpae")
 
 [node name="Player" parent="." instance=ExtResource("1_uh234")]
-position = Vector2(237, 192)
+position = Vector2(229, 210)
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
@@ -39,6 +39,7 @@ rotation = 0.0104599
 
 [node name="HUD" parent="." instance=ExtResource("4_c4yxu")]
 
+[connection signal="hit" from="Player" to="." method="game_over"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
 [connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]
