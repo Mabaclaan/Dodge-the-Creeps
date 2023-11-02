@@ -82,7 +82,7 @@ radius = 37.0
 height = 104.0
 
 [node name="Player" type="Area2D"]
-position = Vector2(168, 213)
+position = Vector2(171, 211)
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
